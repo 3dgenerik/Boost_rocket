@@ -502,8 +502,12 @@ PrefabInstance:
       value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 5128726509475047515, guid: 2ec90c23d6f6e6247bd7540ebdff71fb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 47.10467
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128726509475047515, guid: 2ec90c23d6f6e6247bd7540ebdff71fb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5128726509475047515, guid: 2ec90c23d6f6e6247bd7540ebdff71fb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -631,7 +635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2566900358566088278, guid: efe93ff4c2d211c429223bf9c358ddf4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.23
+      value: 24.05
       objectReference: {fileID: 0}
     - target: {fileID: 2566900358566088278, guid: efe93ff4c2d211c429223bf9c358ddf4, type: 3}
       propertyPath: m_LocalPosition.y
