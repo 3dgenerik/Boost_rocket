@@ -44,7 +44,7 @@ public class Movement : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision other) {
-        if(other.collider.CompareTag("Platform")){
+        if(other.collider.CompareTag("Starting") || other.collider.CompareTag("Landing")){
             rb.freezeRotation = false;
         }else{
             Debug.Log("Oooops, you loose!");

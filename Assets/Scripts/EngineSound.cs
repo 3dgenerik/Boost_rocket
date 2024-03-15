@@ -9,16 +9,18 @@ public class EngineSound : MonoBehaviour
     void Start()
     {
         audio = GetComponent<AudioSource>();
-        audio.mute = true; 
+        audio.Stop();
     }
 
     // Update is called once per frame
     void Update()
     {
         if(Input.GetKey(KeyCode.Space)){
-            audio.mute = false;
+            if(!audio.isPlaying){
+                audio.Play();
+            }
         }else{
-            audio.mute = true;
+            audio.Stop();
         }
     }
 }
